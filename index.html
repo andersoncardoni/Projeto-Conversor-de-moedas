@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor coins</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Agbalumo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <header>
+        <a href="https://pt.wikipedia.org/wiki/Lista_de_moedas" target="_blank">
+            <h2>Tipos de moedas</h2>
+        </a>
+
+        <a href="https://pt.wikihow.com/Calcular-a-Taxa-de-C%C3%A2mbio" target="_blank">
+            <h3>Como é feito a conversão ?</h3>
+        </a>
+
+    </header>
+
+    <nav>
+        <img src="./assets/logo-animado.gif" alt="logo-dinheiro" class="logo-animado">
+
+        <h1>CONVERSOR ANDERSON COINS</h1>
+
+    </nav>
+
+
+
+    <main>
+
+        <div class="q1">
+
+            <div class="q2">
+                <label>
+                    Converter de
+                    <select>
+                        <option>R$ Real Brasileiro</option>
+                    </select>
+                </label>
+
+                <label>
+                    Converter para
+                    <select class="select1">
+                        <option value="dolar">US$ Dólar americano</option>
+                        <option value="euro">€ Euro</option>
+                    </select>
+                </label>
+
+                <label>
+                    Valor
+                    <input class="input-valor" placeholder="R$ 00.000,00">
+                </label>
+
+            </div>
+
+
+
+            <div class="q3">
+
+                <div class="brasil">
+                    <img src="./assets/logo-brasil.png" alt="logo-brasil" class="logo-br">
+                    <p class="texto-real">Real</p>
+                    <p class="valor-br">R$ 0,00</p>
+                </div>
+
+                <img src="./assets/seta.png" alt="sete" class="seta">
+
+                <div class="america">
+                    <img src="./assets/logo-americano.png" alt="logo-americano" class="logo-america">
+                    <p class="texto-dolar" id="converter-nome">Dólar</p>
+                    <p class="valor-america">U$ 0.0</p>
+                </div>
+
+                <button class="botao">CONVERTER</button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
