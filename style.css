@@ -61,7 +61,7 @@ nav {
 nav .logo-animado {
 
     border: 2px solid #adf604;
-    width: 70px;
+    width: 150px;
 
 }
 
@@ -161,6 +161,13 @@ main input {
 
 @media screen and (max-width: 844px) {
 
+
+
+    nav .logo-animado {
+        width: 50px;
+    
+    }
+
     
     nav {
         height: 50px
@@ -168,6 +175,16 @@ main input {
 
     nav h1 {
         font-size: 30px;
+    }
+
+
+    
+    main input {
+        background-color: #ffffff;
+    }
+
+    main .q2 select  {
+        background-color: #ffffff;
     }
 
 
